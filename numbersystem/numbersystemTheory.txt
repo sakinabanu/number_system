@@ -1,0 +1,99 @@
+NUMBER SYSTEM :
+
+A way of representing numbers in different forms is called Number system.
+
+They of Number System are :
+
+	1. Decimal Number System
+	2. Binary Number System
+	3. Octal Number System
+	4. Hexa-Decimal Number System
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DECIMAL NUMBERS :
+
+They are only "10" numbers in decimal numbers.
+They are : (0,1,2,3,4,5,6,7,8,9)
+
+
+BINARY NUMBERS :
+
+They are only "2" numbers in decimal numbers.
+They are : (0,1)
+
+OCTAL NUMBERS :
+
+They are only "8" numbers in decimal numbers.
+They are : (0,1,2,3,4,5,6,7)
+
+HEXA-DECIMAL NUMBERS :
+
+They are only "16" numbers in decimal numbers.
+They are : (0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+RADIX :
+
+(45)v10
+
+Here, 10 is radix which represents that 45 falls in decimal number system.
+
+(90)v3
+
+So, here 3 falls in Decimal, octal & Hexa-decimal it can fall in any of them but higher preference is considered for decimal numbers.
+
+(56e)v6
+Here, 6 is radix which represents that 56 by default falls in hexa-decimal number system.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CONVERSION OF NUMBERS IN NUMBER SYSTEM:
+
+The conversion of one system to another is done using conversion rules.
+Every number can be converted into other number system the possiblities of conversion are:
+
+	    D			           B				 O				H-D
+           / | \		          / | \				/ | \				/ | \
+         /   |   \                      /   |   \                     /   |   \                       /   |   \
+       B   O   H-D	      D   O  H-D 	   D    B   H-D		    D   B   O
+
+We cannot convert into same number system.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CONVERSION TABLE:
+
+---------------------------------------------------------------------------------------------------------------------------------
+ SNO.			|	DECIMAL	|	BINARY		|	OCTAL	|	HEXA-DECIMAL   
+--------------------------------------------------------------------------------------------------------------------------------- 
+DECIMAL		|	      X		|	    LCM		|	  LCM	|              LCM
+BINARY			|	     2^n		|	      X		|	  - | - 	|               - | -
+OCTAL			|	     8^n		|	     - | - 		|	   X		| 		- | -
+HEXA-DECIMAL	|	    16^n		|	     - | -		|	  - | -		|		 X
+---------------------------------------------------------------------------------------------------------------------------------
+
+DESCRIPTION OF CONVERSION METHODS:
+
+LCM : This method is used only when conversion from other numbers (Binary, Octal, Hexa-Decimal) to Decimal numbers is to be done.
+
+2^n	 : This method is used when conversion of Binary number to Decimal number is to be done.
+
+8^n	 : This method is used when conversion of Octal number to Decimal number is to be done.
+
+16^n :  This method is used when conversion of Hexa-Decimal number to decimal number is to be done.
+
+ - | -	 : This sign represents double process calculation ,
+		For example, convertion of Octal number to Hexa-Decimal number  is to be done then it 
+
+					OCTAL NUMBER  ( - )  DECIMAL NUMBER
+
+										      (  |  )
+
+								             DECIMAL NUMBER  ( - )  HEXA-DECIMAL NUMBER
+
+X	: This represents that calculation cannot be done as conversion of same number system is not possible.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
